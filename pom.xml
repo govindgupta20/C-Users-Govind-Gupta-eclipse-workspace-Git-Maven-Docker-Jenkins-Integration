@@ -6,9 +6,13 @@
   
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <browser>DefaultBrowser</browser>
+    <env>DefaultEnv</env>
   </properties>
+ 
 
    <build>
+   
         <plugins>
         <plugin>
              <groupId>org.apache.maven.plugins</groupId>
@@ -32,6 +36,18 @@
                 </configuration>
             </plugin>
         </plugins>
+        
+        
+  <resources>
+    <resource>
+      <directory>src/main/resources</directory>
+      <filtering>true</filtering>
+      <includes>
+        <include>ProjectProperties.properties</include>
+      </includes>
+    </resource>
+  </resources>
+        
     </build>
   
   <dependencies>

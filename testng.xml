@@ -3,12 +3,7 @@
 <suite name="Suite" parallel="classes">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="Docker.ParallelExecution.Setup_DockerGrid"/>
-      <class name="Docker.ParallelExecution.FireFoxTest1"/>
-      <class name="Docker.ParallelExecution.ChromeTest3"/>
-      <class name="Docker.ParallelExecution.ChromeTest1"/>
-      <class name="Docker.ParallelExecution.IETest1"/>
-      <class name="Docker.ParallelExecution.ChromeTest2"/>
+      <class name="ProperySetup.PropertyReadingWay"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -1,7 +1,6 @@
 package Docker.ParallelExecution;
 
 import java.net.URL;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
